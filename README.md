@@ -2,7 +2,7 @@
 
 ## ⚠️ ¡IMPORTANTE!
 
-Para el correcto uso de esta herramienta, los estudios de TAC deben haber pasado por un **protocolo de anonimización**, eliminando toda información personal y cualquier archivo no DICOM.  
+Para garantizar un procesamiento correcto, los estudios de TAC deben haberse sometido previamente a un **protocolo de anonimización y limpieza**, eliminando toda información identificable del paciente y cualquier archivo **no DICOM** incluido en la descarga original del estudio.
 👉 En este repositorio encontrarás el archivo **`Anonimizar.md`**, donde se explica paso a paso cómo realizar este proceso correctamente.
 
 ---
