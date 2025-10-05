@@ -132,13 +132,13 @@ def procesar_estructura(root_folder, progress_window, progress_var, status_var, 
 
             # Extraer nombre base y fecha
             if '[' in nombre_carpeta and ']' in nombre_carpeta:
-                nombre_base = nombre_carpeta.split('[')[0].strip()  # "EOM_70"
-                fecha = nombre_carpeta.split('[')[1].replace(']', '').strip()  # "04062005"
+                nombre_base = nombre_carpeta.split('[')[0].strip()  # "EOM_1"
+                fecha = nombre_carpeta.split('[')[1].replace(']', '').strip()  # "05072009"
                 output_name = f"Fat_{nombre_base} [{fecha}].nii"  # Nombre deseado
             else:
                 output_name = f"Fat_{nombre_carpeta}.nii"
 
-            # Guardar en la carpeta padre (EOM_70)
+            # Guardar en la carpeta padre 
             output_path = os.path.join(parent_folder, output_name)
             
             # Segmentación con parámetros para output .nii
@@ -227,4 +227,5 @@ if __name__ == "__main__":
         # Si estamos en un ejecutable
         multiprocessing.freeze_support()
     
+
     run_app()
