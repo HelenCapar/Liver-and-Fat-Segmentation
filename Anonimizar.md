@@ -33,7 +33,7 @@ Rellena los campos de la siguiente manera:
   *(Debe coincidir con el archivo original sin anonimizar)*
 
 - **ID del paciente:** `DDMMAAAA`  
-  Donde se indica la **fecha del estudio** en el formato DíaMesAño (por ejemplo, `04062005`).
+  Donde se indica la **fecha del estudio** en el formato DíaMesAño (por ejemplo, `05082009`).
 
 ---
 
