@@ -108,7 +108,7 @@ Durante el procesamiento, el usuario verá:
 
 ## 📚 Créditos
 
-Este proyecto está basado en la herramienta **[TotalSegmentator](https://github.com/wasserth/TotalSegmentator)** desarrollada por **Fabian Isensee et al.**
+Este proyecto está basado en la herramienta **[TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
 
 El presente código fue adaptado con fines docentes y de optimización para la segmentación hepática automatizada.
 
