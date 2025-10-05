@@ -21,7 +21,7 @@ Este software es gratuito y permite limpiar los metadatos de los archivos DICOM.
 
 2.Selecciona las siguientes pestañas de la parte inferior de la interfaz: 
 
-<img width="1443" height="170" alt="image" src="https://github.com/user-attachments/assets/b4370920-4e5c-4b77-aae1-28360e76d34b" />
+<img width="1854" height="219" alt="image" src="https://github.com/user-attachments/assets/252e61f5-fffb-4a5d-b2bf-95d9fb83357d" />
 
 
 3.Selecciona las pestañas correspondientes para editar los campos de **Nombre del Paciente** e **ID del Paciente**.
