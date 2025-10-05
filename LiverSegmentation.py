@@ -48,7 +48,7 @@ def procesar_estructura(root_folder, progress_window, progress_var, status_var):
     
     for i, dicom_folder in enumerate(carpetas, 1):
         nombre_carpeta = os.path.basename(dicom_folder)
-        parent_folder = os.path.dirname(dicom_folder)  # Carpeta padre (EOM_70)
+        parent_folder = os.path.dirname(dicom_folder)  # Carpeta padre 
         status_var.set(f"Procesando: {nombre_carpeta}")
         progress_var.set((i / total) * 100)
         progress_window.update()
@@ -67,7 +67,7 @@ def procesar_estructura(root_folder, progress_window, progress_var, status_var):
             temp_path = os.path.join(tempfile.gettempdir(), f"temp_{nombre_carpeta}.nii")
             sitk.WriteImage(image_ras, temp_path)
 
-            # Extraer el nombre base (EOM_70) y la fecha (04062005)
+            # Extraer el nombre base y la fecha
             if '[' in nombre_carpeta and ']' in nombre_carpeta:
                 nombre_base = nombre_carpeta.split('[')[0].strip()
                 fecha = nombre_carpeta.split('[')[1].replace(']', '').strip() 
@@ -75,7 +75,7 @@ def procesar_estructura(root_folder, progress_window, progress_var, status_var):
             else:
                 output_name = f"Liver_{nombre_carpeta}.nii"  # Por si no tiene formato esperado
 
-            # Guardar en la carpeta padre (EOM_70), no en la subcarpeta con fecha
+            # Guardar en la carpeta padre, no en la subcarpeta con fecha
             output_path = os.path.join(parent_folder, output_name)
             
             totalsegmentator(
@@ -153,3 +153,4 @@ if __name__ == "__main__":
         multiprocessing.freeze_support()
     
     run_app()
+
