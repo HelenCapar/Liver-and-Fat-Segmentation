@@ -17,10 +17,14 @@ Este software es gratuito y permite limpiar los metadatos de los archivos DICOM.
 
 ## ⚙️ 2. Abrir Dicom Cleaner
 
-Al ejecutar el programa, se abrirá una interfaz principal con varias pestañas en la parte inferior.
+1.Al ejecutar el programa, se abrirá una interfaz principal con varias pestañas en la parte inferior.
 
-Selecciona las pestañas correspondientes para editar los campos de **Nombre del Paciente** e **ID del Paciente**.
-<img width="1000" height="121" alt="image" src="https://github.com/user-attachments/assets/59af2d8d-d05c-47bc-87fd-61f3e6b8f243" />
+2.Selecciona las siguientes pestañas de la parte inferior de la interfaz: 
+<img width="1443" height="170" alt="image" src="https://github.com/user-attachments/assets/b4370920-4e5c-4b77-aae1-28360e76d34b" />
+
+
+3.Selecciona las pestañas correspondientes para editar los campos de **Nombre del Paciente** e **ID del Paciente**.
+
 
 ---
 
