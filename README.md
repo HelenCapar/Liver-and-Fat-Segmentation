@@ -98,8 +98,8 @@ Una vez introducida y validada la licencia, el programa continuará con el mismo
 Las segmentaciones generadas se guardan en las **mismas carpetas donde se encuentran los archivos DICOM**, con nombres como:
 
 ```
-Liver_<NombrePaciente> [<Fecha>].nii
-Fat_<NombrePaciente> [<Fecha>].nii
+Liver_<NombrePaciente> [<DiaMesAño>].nii
+Fat_<NombrePaciente> [<DiaMesAño>].nii
 ```
 Por ejemplo:
 ```
