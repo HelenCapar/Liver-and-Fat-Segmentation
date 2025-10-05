@@ -109,16 +109,6 @@ Fat_EOM_1 [05082009].nii
 
 ---
 
-## 🧠 Funcionamiento interno
-
-- El programa busca automáticamente las carpetas que contienen archivos `.dcm`.
-- Convierte los DICOM a formato `.nii` y los reorienta al espacio estándar RAS.
-- Utiliza la función `totalsegmentator()` con los parámetros:
-  - `roi_subset=["liver"]`
-  - `ml=True`, `fast=True`, `device="cpu"`
-  - `output_type="nii"`
-
----
 
 ## 🖥️ Interfaz gráfica
 
